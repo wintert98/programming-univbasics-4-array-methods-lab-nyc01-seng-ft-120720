@@ -1,13 +1,5 @@
 def using_include(array, element)
- counter = 0 
- while counter < array.length 
- if array[counter].include? == element
-   return true 
- else
-   return false
- end
- counter += 1
- end 
+ array.include?(element)
 end
 
 def using_sort(array)
