@@ -1,5 +1,12 @@
 def using_include(array, element)
-
+ counter = 0 
+ while counter < array.length 
+ if array.include? == element
+   return true 
+ else
+   return false
+ counter += 1
+ end 
 end
 
 def using_sort(array)
