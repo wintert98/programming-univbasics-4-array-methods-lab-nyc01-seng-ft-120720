@@ -5,6 +5,7 @@ def using_include(array, element)
    return true 
  else
    return false
+ end
  counter += 1
  end 
 end
